@@ -111,6 +111,34 @@ h1 {
     border-radius: 4px;
 }
 
+/* contact page */
+.contact-main {
+    color: white;
+    background-color: hsl(219 79% 66% / 0.8);
+    padding: 1rem;
+    margin: 1rem;
+    max-width: 900px;
+    margin-inline: auto;
+}
+
+.contact-main h2 {
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.contact-main form {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.contact-main form input,
+.contact-main form textarea {
+    border: none;
+    padding: 0.5rem;
+}
+
 /* components */
 .btn {
     padding: 0.5rem 1rem;
